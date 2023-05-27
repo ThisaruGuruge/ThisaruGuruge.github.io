@@ -5,4 +5,17 @@ permalink: /blog
 quote: "I write sometimes"
 ---
 
-<h1 class="title--primary">Blog</h1>
+<main class="container">
+    <h1 class="title--primary">Blog</h1>
+
+    <ul class="blog--posts">
+        {% for post in site.posts %}
+        <li class="blog--post">
+            <div class="blog--post-heading">
+                <p><a href="{{ post.url }}" class="blog--post-title">{{ post.title }}</a></p>
+            </div>
+            <p class="post--subheading-text">{{ post.subtitle }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</main>
