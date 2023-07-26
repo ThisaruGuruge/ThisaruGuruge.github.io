@@ -10,6 +10,7 @@
 }
 
 .post--container {
+    max-width: 120rem;
     flex-basis: 50rem;
     flex-grow: 100;
 }
@@ -24,11 +25,11 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 3.2rem;
+    max-width: 90%;
 }
 
 .post--image {
     max-width: 80%;
-    width: auto;
     height: auto;
 }
 
@@ -84,4 +85,8 @@ blockquote {
     font-weight: 500;
     font-size: 2.4rem;
     color: var(--color-green);
+}
+
+.highlight {
+    padding: 2rem;
 }
