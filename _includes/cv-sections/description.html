@@ -1,27 +1,49 @@
 <section class="section section--about container">
     <h1 class="section--title title--primary">About</h1>
     <p class="text">
-        {% assign currentYear = site.time | date: '%Y' %}
-        {% assign experienceYears = currentYear | minus: 2017 %} I am a Software Engineer
-        based on Colombo, Sri Lanka with over {{ experienceYears }} years of
-        experience in the industry. I am currently working as an Associate
-        Technical Lead at
-        <a href="https://www.wso2.com/" target="_blank" rel="noopener noreferrer" class="text-link">WSO2</a>. I am part
-        of the
-        <a href="https://ballerina.io" target="_blank" rel="noopener noreferrer" class="text-link">Ballerina</a>
-        team where I am leading a development team responsible for developing
-        and maintaining a set of
-        <a href="https://github.com/ballerina-platform/ballerina-standard-library" target="_blank"
-            rel="noopener noreferrer" class="text-link">Ballerina Standard Library</a>
-        packages.
-    </p>
     <p class="text">
-        My main focus area is
-        <a href="https://graphql.org" target="_blank" rel="noopener noreferrer" class="text-link">GraphQL</a>, where I
-        have designed and developed the
-        <a href="https://github.com/ballerina-platform/module-ballerina-graphql" target="_blank"
-            rel="noopener noreferrer" class="text-link">Ballerina GraphQL package</a>. In addition, my team is also
-        responsible for Auth, OAuth2, SerDes,
-        NATS, and RabbitMQ packages.
+        {% assign currentYear = site.time | date: '%Y' %}
+        {% assign experienceYears = currentYear | minus: 2017 %}
+        I am a Colombo, Sri Lanka-based Software Engineer with over {{ experienceYears }} years of industry experience.
+        Currently, I serve as a Technical Lead at
+        <a href="https://www.wso2.com/" target="_blank" rel="noopener noreferrer" class="text-link">WSO2</a>,
+        where I lead a development team on the
+        <a href="https://ballerina.io" target="_blank" rel="noopener noreferrer" class="text-link">Ballerina</a>
+        project.
+    </p>
+
+    <p class="text">
+        My team is responsible for designing, developing, and maintaining a variety of Ballerina library packages.
+        My primary focus is
+        <a href="https://graphql.org" target="_blank" rel="noopener noreferrer" class="text-link">GraphQL</a>,
+        and I've spearheaded the development of the
+        <a href="https://central.ballerina.io/ballerina/graphql/latest" target="_blank" rel="noopener noreferrer"
+            class="text-link">Ballerina GraphQL package</a>.
+        Additionally, my team manages several other essential packages, including:
+
+    <ul class="text">
+        <li><a href="https://central.ballerina.io/ballerina/auth/latest" target="_blank" rel="noopener noreferrer"
+                class="text-link">Auth</a></li>
+        <li><a href="https://central.ballerina.io/ballerina/oauth2/latest" target="_blank" rel="noopener noreferrer"
+                class="text-link">OAuth2</a></li>
+        <li><a href="https://central.ballerina.io/ballerinax/mongodb/latest" target="_blank" rel="noopener noreferrer"
+                class="text-link">MongoDB</a></li>
+        <li><a href="https://central.ballerina.io/ballerina/copybook/latest" target="_blank" rel="noopener noreferrer"
+                class="text-link">Copybook</a></li>
+        <li><a href="https://central.ballerina.io/ballerina/avro/latest" target="_blank" rel="noopener noreferrer"
+                class="text-link">Avro</a></li>
+        <li>and more...</li>
+    </ul>
+    </p>
+
+    <p class="text">
+        Beyond package development, I oversee the Ballerina library build and release processes. We've implemented
+        automated pipelines,
+        primarily using GitOps, to streamline these operations. A key accomplishment is our Ballerina library release
+        pipeline,
+        capable of releasing over 100 Ballerina library packages from separate GitHub repositories to
+        <a href="https://central.ballerina.io" target="_blank" rel="noopener noreferrer" class="text-link">Ballerina
+            Central</a>
+        and GitHub packages with a single click.
     </p>
 </section>

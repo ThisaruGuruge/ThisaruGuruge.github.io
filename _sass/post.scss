@@ -4,7 +4,7 @@
     gap: 1.2rem;
     align-items: start;
 
-    max-width: 120rem;
+    max-width: 150rem;
     margin: 0 auto;
     padding: 2.4rem;
 }
@@ -26,11 +26,6 @@
     justify-content: center;
     margin-bottom: 3.2rem;
     max-width: 90%;
-}
-
-.post--image {
-    max-width: 80%;
-    height: auto;
 }
 
 .post--additional-image-container {
@@ -70,13 +65,17 @@
 .post--content p {
     margin-bottom: 1.8rem;
     line-height: 1.4;
-    font-weight: 600;
-    letter-spacing: 0.2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
 }
 
 .post--content ul {
     line-height: 1.4;
     margin: 1.2rem 0;
+}
+
+.post--content ul li {
+    margin-left: 2.4rem;
 }
 
 blockquote {

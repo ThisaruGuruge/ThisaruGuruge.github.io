@@ -1,9 +1,22 @@
+- position: Technical Lead
+  company: WSO2 LLC.
+  logo: /assets/images/logos/wso2.png
+  team: Ballerina Library
+  start: February, 2024
+  end: Present
+  technologies: GraphQL, Ballerina, Java, MongoDB, JavaScript, Python, Apollo, NodeJS, Git, GitHub, GitOps, CI/CD Pipelines
+  description: >-
+    Lead a sub-team in the Ballerina library that develops and maintains multiple Ballerina modules including the GraphQL,
+    Auth, OAuth2, MongoDB, Avro, and many others. I am also responsible for Ballerina library build and release pipelines.
+    I am also part of the Ballerina DevRel team where I actively involved in evangelist activities including writing articles,
+    hosting community calls, conduction University programs, and actively participating in community forums.
+
 - position: Associate Technical Lead
   company: WSO2 LLC.
   logo: /assets/images/logos/wso2.png
   team: Ballerina Standard Library
   start: June, 2021
-  end: Present
+  end: January, 2024
   technologies: GraphQL, Ballerina, Java, JavaScript, Python, Apollo, NodeJS, Git, GitHub, GitOps, CI/CD Pipelines
   description: >-
     Lead a small sub-team in the Ballerina Standard Library that developed and maintained multiple Standard Library
