@@ -5,6 +5,7 @@ subtitle: "Reality is the Fantasy we choose to believe"
 image: "/assets/images/posts/inception/poster.webp"
 image-title: "Inception Movie Poster"
 tags: ["movie reviews", "Philosophy"]
+keywords: "සිංහල, සිංහල විචාර, චිත්‍රපට විචාර, ඉන්සෙප්ශන්, Inception, Review, Inception Sinhala Review, Inception Movie Review, Inception Sinhala"
 ---
 
 Inception කියන්නේ සාමාන්‍යයෙන් හොලිවුඩ් චිත්‍රපට බලන අය ඕනෙම කෙනෙක් බලලා තියෙන ෆිල්ම් එකක්. සමහරුන්ට මේක තමයි මෑත

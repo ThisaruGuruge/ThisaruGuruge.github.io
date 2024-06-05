@@ -5,6 +5,7 @@ subtitle: "Implement federated GraphQL APIs with Ballerina"
 image: "/assets/images/posts/graphql-federation-with-ballerina-part-I/graphql-federation.webp"
 image-title: "GraphQL and Ballerina"
 tags: ["Tech", "Ballerina", "GraphQL"]
+keywords: "Ballerina, GraphQL, GraphQL Federation, Apollo, Apollo Studio, Ballerina Swan Lake, Ballerina GraphQL, Ballerina GraphQL Federation, Ballerina GraphQL Subgraph, Ballerina GraphQL Entity, Ballerina GraphQL ReferenceResolver, Ballerina GraphQL Federation Authentication, Ballerina GraphQL Federation Authorization"
 ---
 
 > This article was written using Ballerina Swan Lake Update 8 (2201.8.0)
