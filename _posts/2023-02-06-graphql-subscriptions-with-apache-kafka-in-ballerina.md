@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: code
 title: "GraphQL Subscriptions with Apache Kafka in Ballerina"
 subtitle: "Step-by-step guide on implementing a news alert system GraphQL API using Apache Kafka and Ballerina"
 image: "/assets/images/posts/graphql-subscriptions-with-kafka/graphql-subscription-with-kafka-diagram.webp"

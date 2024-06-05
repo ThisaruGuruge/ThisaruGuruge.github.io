@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: code
 title: "GraphQL Federation with Ballerina and Apollo - Part I"
 subtitle: "Implement federated GraphQL APIs with Ballerina"
 image: "/assets/images/posts/graphql-federation-with-ballerina-part-I/graphql-federation.webp"
@@ -921,7 +921,7 @@ Now we can run the router. You need the `APOLLO_KEY` and the `APOLLO_GRAPH_REF`.
 APOLLO_KEY=<Your Apollo Key> APOLLO_GRAPH_REF=<Your Apollo Graph Ref> ./router - config router.yaml
 ```
 
-Once the router is up and running, it will print the router link on the stdout (the default value is http://localhost:4000), so that you can try out your federated supergraph. When you access the link using a browser, it will start an Apollo Sandbox instance. (This is configured using the router.yaml file mentioned above).
+Once the router is up and running, it will print the router link on the stdout (the default value is <http://localhost:4000>), so that you can try out your federated supergraph. When you access the link using a browser, it will start an Apollo Sandbox instance. (This is configured using the router.yaml file mentioned above).
 
 Now use the following GraphQL document to test your federated GraphQL API:
 

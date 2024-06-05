@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: code
 title: "GraphQL Federation with Ballerina and Apollo - Part II"
 subtitle: "Implement federated GraphQL APIs with Ballerina"
 image: "/assets/images/posts/graphql-federation-with-ballerina-part-I/graphql-federation.webp"

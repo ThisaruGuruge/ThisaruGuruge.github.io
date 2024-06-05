@@ -14,7 +14,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 
     <link rel="stylesheet" href="/assets/css/styles.css">
@@ -24,13 +25,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
 
-    <!-- HighlightJS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css"
-        media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="https://unpkg.com/highlightjs/styles/vs.css" />
-    <link rel="stylesheet" href="https://unpkg.com/highlightjs/styles/atom-one-dark.css" />
+    {% assign assets = site.data.assets[page.layout] %}
+    {% if assets %}
+    {% if assets.stylesheets %}
+    {{ assets.stylesheets }}
+    {% endif %}
+    {% endif %}
 
     <link rel="icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -49,12 +49,13 @@
     <script src="/assets/js/scripts.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <script src="/assets/js/ballerina.es.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/graphql.min.js"></script>
-    <script>
-        hljs.highlightAll();
-    </script>
+
+    {% assign assets = site.data.assets[page.layout] %}
+    {% if assets %}
+    {% if assets.scripts %}
+    {{ assets.scripts }}
+    {% endif %}
+    {% endif %}
 </body>
 
 </html>

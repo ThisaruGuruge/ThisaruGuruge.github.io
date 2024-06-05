@@ -1,0 +1,19 @@
+code:
+  stylesheets: |
+      <link rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css" />
+      <link rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css" media="(prefers-color-scheme: dark)" />
+      <link rel="stylesheet", href="https://unpkg.com/highlightjs/styles/vs.css" />
+      <link rel="stylesheet", href="https://unpkg.com/highlightjs/styles/atom-one-dark.css" />
+  scripts: |
+      <script src="/assets/js/scripts.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+      <script src="/assets/js/ballerina.es.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/graphql.min.js"></script>
+      <script>
+          hljs.highlightAll();
+      </script>
+gallery:
+
+
+
+
