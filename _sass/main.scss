@@ -16,6 +16,24 @@
   }
 }
 
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9baf1a;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #e74c3c;
+}
+
 .text-link {
   text-decoration: none;
   cursor: pointer;
@@ -75,20 +93,6 @@ pre code {
   display: block; /* Make sure code block behaves properly inside pre */
 }
 
-a {
-  color: #3498db;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #9b59b6;
-}
-
-a:hover {
-  color: #2980b9;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #e74c3c;
+p > code {
+  color: var(--color-link);
 }
