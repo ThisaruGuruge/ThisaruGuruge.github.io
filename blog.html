@@ -12,7 +12,7 @@ quote: "I write sometimes"
         {% for post in site.posts %}
         <li class="blog--post">
             <div class="blog--post-heading">
-                <p><a href="{{ post.url }}" class="blog--post-title">{{ post.title }}</a></p>
+                <p><a href="{{ post.url }}" class="blog--post-title"><ion-icon name="caret-forward-outline"></ion-icon>{{ post.title }}</a></p>
             </div>
             <p class="post--subheading-text">{{ post.subtitle }}</p>
         </li>
