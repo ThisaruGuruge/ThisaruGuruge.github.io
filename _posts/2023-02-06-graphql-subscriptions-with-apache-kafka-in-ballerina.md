@@ -5,7 +5,7 @@ subtitle: "Step-by-step guide on implementing a news alert system GraphQL API us
 image: "/assets/images/posts/graphql-subscriptions-with-kafka/graphql-subscription-with-kafka-diagram.webp"
 image-title: "Architecture Diagram of the News Alert System"
 tags: ["Tech", "Ballerina", "GraphQL"]
-keywords: "Ballerina, GraphQL, Apache Kafka, Real-time, News Alert System, GraphQL Subscriptions, Ballerina GraphQL, Ballerina Kafka, Ballerina Real-time"
+keywords: "Ballerina, GraphQL, Apache Kafka, News Alert System, GraphQL Subscriptions, Ballerina GraphQL, Ballerina Kafka, GraphQL and Kafka, GraphQL subscription with Kafka"
 ---
 ## Introduction
 
