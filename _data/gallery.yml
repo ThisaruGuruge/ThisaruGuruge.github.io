@@ -1,35 +1,44 @@
 - url: /assets/images/photo-gallery/1-green-pit-viper.webp
+  thumbnail: /assets/images/photo-gallery/1-green-pit-viper-thumbnail.jpeg
   alt: "A Sri Lankan Green Pit Viper"
   title: "A Sri Lankan Green Pit Viper"
 
 - url: /assets/images/photo-gallery/2-red-pierrot.webp
+  thumbnail: /assets/images/photo-gallery/2-red-pierrot-thumbnail.jpeg
   alt: "A Red Pierrot Butterfly"
   title: "A Red Pierrot Butterfly"
 
 - url: /assets/images/photo-gallery/3-manigala.webp
+  thumbnail: /assets/images/photo-gallery/3-manigala-thumbnail.jpeg
   alt: "A photo taken in the route to manigala"
   title: "A photo taken in the route to manigala"
 
 - url: /assets/images/photo-gallery/4-common-pierrot.webp
+  thumbnail: /assets/images/photo-gallery/4-common-pierrot-thumbnail.jpeg
   alt: "Two Common Pierrot butterflies mating"
   title: "Two Common Pierrot butterflies mating"
 
 - url: /assets/images/photo-gallery/5-crimson-dropwing.webp
+  thumbnail: /assets/images/photo-gallery/5-crimson-dropwing-thumbnail.jpeg
   alt: "A Crimson Dropwing dragonfly"
   title: "A Crimson Dropwing dragonfly"
 
 - url: /assets/images/photo-gallery/6-leaf-nosed-lizard.webp
+  thumbnail: /assets/images/photo-gallery/6-leaf-nosed-lizard-thumbnail.jpeg
   alt: "A Sri Lankan Leaf-Nosed Lizard"
   title: "A Sri Lankan Leaf-Nosed Lizard"
 
 - url: /assets/images/photo-gallery/7-brahminy-kite.webp
+  thumbnail: /assets/images/photo-gallery/7-brahminy-kite-thumbnail.jpeg
   alt: "A Brahminy Kite hunting a fish"
   title: "A Brahminy Kite hunting a fish"
 
 - url: /assets/images/photo-gallery/8-wandering-glider.webp
+  thumbnail: /assets/images/photo-gallery/8-wandering-glider-thumbnail.jpeg
   alt: "A close-up image of a Wandering Glider dragonfly"
   title: "A close-up image of a Wandering Glider dragonfly"
 
 - url: /assets/images/photo-gallery/9-asankas-shrub-frog.webp
+  thumbnail: /assets/images/photo-gallery/9-asankas-shrub-frog-thumbnail.jpeg
   alt: "An Asanka's Shrub Frog"
   title: "An Asanka's Shrub Frog"

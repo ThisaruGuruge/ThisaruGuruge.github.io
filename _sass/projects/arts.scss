@@ -6,13 +6,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.6rem;
 
     margin-top: 3.2rem;
 }
 
 .gallery--image-container {
-    flex-basis: 32rem;
+    flex-basis: fit-content;
 
     display: flex;
     flex-direction: column;
@@ -42,4 +42,14 @@
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
+}
+
+.mfp-arrow {
+    width: 0;
+    height: 0;
+}
+
+.mfp-arrow-left::before,
+.mfp-arrow-right::before {
+    border: none !important;
 }
