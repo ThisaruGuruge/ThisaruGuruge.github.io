@@ -9,7 +9,7 @@ tags: ["Tech", "Ballerina", "GraphQL"]
 
 > This article was written using Ballerina Swan Lake Update 8 (2201.8.0)
 
-This is part II of the series "GraphQL Federation with Ballerina and Apollo". Refer to [Part I](/2023/10/02/graphql-federation-with-ballerina-part-I.html) before reading this.
+This is part II of the series "GraphQL Federation with Ballerina and Apollo". Refer to [Part I](/2023/10/02/graphql-federation-with-ballerina-part-I.html){:target="_blank"} before reading this.
 
 In the first part, we discussed the GraphQL federation concepts and how to implement federated GraphQL API using Ballerina and Apollo Studio. In this part, we will discuss how to implement `Entity` types and `ReferenceResolvers` in Ballerina. Further, we will briefly discuss how to handle authentication and authorization in a federated GraphQL API.
 
@@ -515,7 +515,7 @@ In a production environment, you might need to handle authentication and authori
 
 There are a few options/approaches for authentication for federated GraphQL APIs. In this article, we will discuss how to use the delegate method. In this approach, you will delegate the authentication to the subgraphs, without handling them at the router-level.
 
-> **Note:** There are other approaches where the authentication is handled at the router-level, but those are Apollo federation enterprise specific features. Therefore we are not going to discuss those approaches in this article. Refer to [Apollo documentation](https://www.apollographql.com/docs/technotes/TN0004-router-authentication) for more information.
+> **Note:** There are other approaches where the authentication is handled at the router-level, but those are Apollo federation enterprise specific features. Therefore we are not going to discuss those approaches in this article. Refer to [Apollo documentation](https://www.apollographql.com/docs/technotes/TN0004-router-authentication){:target="_blank"} for more information.
 
 #### Configure the Router to Delegate Authentication
 
@@ -618,8 +618,8 @@ Stay tuned for more updates!
 
 The complete code for the subgraphs can be found in the following repositories:
 
-* [Products Subgraph](https://github.com/ThisaruGuruge/ballerina-graphql-federation-products-subgraph/)
-* [Users Subgraph](https://github.com/ThisaruGuruge/ballerina-graphql-federation-users-subgraph/)
-* [Reviews Subgraph](https://github.com/ThisaruGuruge/ballerina-graphql-federation-reviews-subgraph/)
+* [Products Subgraph](https://github.com/ThisaruGuruge/ballerina-graphql-federation-products-subgraph/){:target="_blank"}
+* [Users Subgraph](https://github.com/ThisaruGuruge/ballerina-graphql-federation-users-subgraph/){:target="_blank"}
+* [Reviews Subgraph](https://github.com/ThisaruGuruge/ballerina-graphql-federation-reviews-subgraph/){:target="_blank"}
 
-> Ballerina is an open-source project. We welcome any kind of contributions to the Ballerina platform, including [starring on GitHub](https://github.com/ballerina-platform/module-ballerina-graphql).
+> Ballerina is an open-source project. We welcome any kind of contributions to the Ballerina platform, including [starring on GitHub](https://github.com/ballerina-platform/module-ballerina-graphql){:target="_blank"}.

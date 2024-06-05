@@ -274,10 +274,10 @@ In this section, we'll walk through the process of implementing individual subgr
 
 ### Prerequisites
 
-* Download and install [Ballerina](https://ballerina.io/downloads/).
-* A code editor (Visual Studio Code is preferred with [Ballerina extension](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina))
-* An [Apollo Studio](https://studio.apollographql.com/) account
-* [Rover CLI](https://www.apollographql.com/docs/rover)
+* Download and install [Ballerina](https://ballerina.io/downloads/){:target="_blank"}.
+* A code editor (Visual Studio Code is preferred with [Ballerina extension](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina){:target="_blank"})
+* An [Apollo Studio](https://studio.apollographql.com/){:target="_blank"} account
+* [Rover CLI](https://www.apollographql.com/docs/rover){:target="_blank"}
 
 Before diving into the code, it's worth noting that this section provides a high-level overview of the subgraph implementations. Detailed code explanations are omitted to maintain focus on the key concepts of GraphQL federation. For in-depth Ballerina GraphQL implementation, refer to the provided resources.
 
@@ -285,9 +285,9 @@ Before diving into the code, it's worth noting that this section provides a high
 
 For a comprehensive understanding of Ballerina GraphQL implementation, explore these resources:
 
-* [Ballerina GraphQL Specification](https://ballerina.io/spec/graphql)
-* [Ballerina GraphQL API Docs](https://central.ballerina.io/ballerina/graphql/latest)
-* [Ballerina by Examples](https://ballerina.io/learn/by-example/#graphql-service)
+* [Ballerina GraphQL Specification](https://ballerina.io/spec/graphql){:target="_blank"}
+* [Ballerina GraphQL API Docs](https://central.ballerina.io/ballerina/graphql/latest){:target="_blank"}
+* [Ballerina by Examples](https://ballerina.io/learn/by-example/#graphql-service){:target="_blank"}
 
 Now, let's proceed with creating the subgraphs without the federation-specific features. We'll add federation-specific functionality later in this article series.
 
@@ -406,7 +406,7 @@ public type Product record {|
 |};
 ```
 
-For the detailed implementation of this subgraph, refer to the [Products Subgraph repository](https://github.com/ThisaruGuruge/ballerina-graphql-federation-products-subgraph/tree/initial-state).
+For the detailed implementation of this subgraph, refer to the [Products Subgraph repository](https://github.com/ThisaruGuruge/ballerina-graphql-federation-products-subgraph/tree/initial-state){:target="_blank"}.
 
 ### Users Subgraph
 
@@ -504,7 +504,7 @@ public type User record {|
 |};
 ```
 
-The Users Subgraph implementation details can be found in the [Users Subgraph repository](https://github.com/ThisaruGuruge/ballerina-graphql-federation-users-subgraph/tree/initial-state)
+The Users Subgraph implementation details can be found in the [Users Subgraph repository](https://github.com/ThisaruGuruge/ballerina-graphql-federation-users-subgraph/tree/initial-state){:target="_blank"}.
 
 ### Reviews Subgraph
 
@@ -678,17 +678,17 @@ public type ReviewInput readonly & record {|
 
 > **Note:** The Review type is defined using a Ballerina service type here. Although it could be defined using a record type, the service type is chosen because certain federation-specific features (which will be discussed later in this article series) require this type to be defined as a service type.
 
-For a detailed implementation of this subgraph, refer to the [Reviews Subgraph repository](https://github.com/ThisaruGuruge/ballerina-graphql-federation-reviews-subgraph/tree/initial-state).
+For a detailed implementation of this subgraph, refer to the [Reviews Subgraph repository](https://github.com/ThisaruGuruge/ballerina-graphql-federation-reviews-subgraph/tree/initial-state){:target="_blank"}.
 
 With these subgraphs implemented, you have laid the foundation for your federated GraphQL API. In the next sections, we will enhance these subgraphs with federation-specific features to build the supergraph.
 
 ## Publish Subgraphs
 
-Now that we have our initial implementation complete, we can publish them. To publish the subgraphs we can use the [Rover CLI](https://www.apollographql.com/docs/rover/) from Apollo.
+Now that we have our initial implementation complete, we can publish them. To publish the subgraphs we can use the [Rover CLI](https://www.apollographql.com/docs/rover/){:target="_blank"} from Apollo.
 
 ### Publishing to Apollo Studio
 
-To publish the subgraphs to Apollo Studio, first, create an account on Apollo Studio and create a new Graph. Refer to [Apollo documentation](https://www.apollographql.com/docs/graphos/) for more information about creating new graphs and publishing them. When you create a new Graph, a pop-up shows up with an `APOLLO_KEY`, and `APOLLO_GRAPH_REF`. Copy these values and save them in a `.env` file.
+To publish the subgraphs to Apollo Studio, first, create an account on Apollo Studio and create a new Graph. Refer to [Apollo documentation](https://www.apollographql.com/docs/graphos/){:target="_blank"} for more information about creating new graphs and publishing them. When you create a new Graph, a pop-up shows up with an `APOLLO_KEY`, and `APOLLO_GRAPH_REF`. Copy these values and save them in a `.env` file.
 
 ```toml
 APOLLO_KEY=<Your Apollo Key>
@@ -713,7 +713,7 @@ Successfully saved API key.
 
 Once the key is successfully set, we can publish the subgraph.
 
-To publish the subgraph we need the GraphQL schema of the subgraph. To get the subgraph, we can use the [`bal graphql` CLI tool](https://ballerina.io/learn/graphql-tool/#schema-generation). Execute the following command inside the Products subgraph repo:
+To publish the subgraph we need the GraphQL schema of the subgraph. To get the subgraph, we can use the [`bal graphql` CLI tool](https://ballerina.io/learn/graphql-tool/#schema-generation){:target="_blank"}. Execute the following command inside the Products subgraph repo:
 
 ```shell
 bal graphql -i service.bal
@@ -883,11 +883,11 @@ type User
 
 As you can see, the Apollo Studio already has composed a supergraph schema from the subgraphs you published. Now that we have the supergraph ready, we can use the Apollo Router as the access point of our supergraph.
 
-> **Note:** You can compose your supergraph schema locally using the Rover CLI. Refer to [Apollo documentation](https://www.apollographql.com/docs/rover/supergraphs/#composing-a-supergraph-schema) for more information.
+> **Note:** You can compose your supergraph schema locally using the Rover CLI. Refer to [Apollo documentation](https://www.apollographql.com/docs/rover/supergraphs/#composing-a-supergraph-schema){:target="_blank"} for more information.
 
 ### Configure Apollo Router
 
-Create a new directory and download the [Apollo Router](https://www.apollographql.com/docs/router/quickstart/#1-download-and-extract-the-apollo-router-binary).
+Create a new directory and download the [Apollo Router](https://www.apollographql.com/docs/router/quickstart/#1-download-and-extract-the-apollo-router-binary){:target="_blank"}.
 
 > **Note:** This article series shows how to implement federated GraphQL API using a self-hosted Apollo router. To use the self-hosted Apollo router, you need an Apollo enterprise plan.
 
@@ -912,7 +912,7 @@ cors:
     - https://studio.apollographql.com
 ```
 
-Refer to the [Apollo Router documentation](https://www.apollographql.com/docs/router/configuration/overview/) for more information about configuring the router.
+Refer to the [Apollo Router documentation](https://www.apollographql.com/docs/router/configuration/overview/){:target="_blank"} for more information about configuring the router.
 
 Now we can run the router. You need the `APOLLO_KEY` and the `APOLLO_GRAPH_REF`. Execute the following command to run the Apollo Router:
 

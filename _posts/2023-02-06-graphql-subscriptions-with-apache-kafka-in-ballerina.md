@@ -135,9 +135,9 @@ Apache Kafka is used for handling real-time events in the news alert system.
 
 ## Prerequisites
 
-- Download and install [Ballerina Distribution](https://ballerina.io/downloads)
-- Download [Apache Kafka](https://kafka.apache.org/downloads)
-- VS Code with [Ballerina plugin](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina) (Recommended) or any other IDE
+- Download and install [Ballerina Distribution](https://ballerina.io/downloads){:target="_blank"}
+- Download [Apache Kafka](https://kafka.apache.org/downloads){:target="_blank"}
+- VS Code with [Ballerina plugin](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina){:target="_blank"} (Recommended) or any other IDE
 
 ## Implementation
 
@@ -471,7 +471,7 @@ resource function subscribe news(string userId, Agency agency) returns stream<Ne
 
 ## Running the Service
 
-- First, [run the Kafka broker](https://kafka.apache.org/quickstart) in a terminal.
+- First, [run the Kafka broker](https://kafka.apache.org/quickstart){:target="_blank"} in a terminal.
 
 - Then in another terminal, run the Ballerina project. To run the project, execute the following command inside the project directory.
 
