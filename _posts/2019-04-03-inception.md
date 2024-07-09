@@ -7,6 +7,7 @@ image-title: "Inception Movie Poster"
 tags: ["movie reviews", "Philosophy"]
 keywords: "සිංහල, සිංහල විචාර, චිත්‍රපට විචාර, ඉන්සෙප්ශන්, Inception, Review, Inception Sinhala Review, Inception Movie Review, Inception Sinhala"
 Description: "Inception චිත්‍රපය පිළිබඳව දාර්ශනික විග්‍රහයක්"
+lastmod: 2024-06-30
 ---
 
 Inception කියන්නේ සාමාන්‍යයෙන් හොලිවුඩ් චිත්‍රපට බලන අය ඕනෙම කෙනෙක් බලලා තියෙන ෆිල්ම් එකක්. සමහරුන්ට මේක තමයි මෑත
