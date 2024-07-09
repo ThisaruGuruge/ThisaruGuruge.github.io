@@ -7,7 +7,7 @@ image-title: "Architecture Diagram of the News Alert System"
 tags: ["Tech", "Ballerina", "GraphQL"]
 keywords: "Ballerina, GraphQL, Apache Kafka, News Alert System, GraphQL Subscriptions, Ballerina GraphQL, Ballerina Kafka, GraphQL and Kafka, GraphQL subscription with Kafka"
 description: "This step-by-step guide explains how to implement a news alert system as a GraphQL API using Apache Kafka and Ballerina. The system leverages the Ballerina GraphQL package to create a GraphQL API and Apache Kafka with Ballerina Kafka connector to handle real-time events."
-lastmod: 2024-06-30
+last_modified_at: 2024-06-30
 ---
 ## Introduction
 
